@@ -9,6 +9,7 @@
   background-position: center;
   position: relative;
   transition: background-size 1s ease;
+  background-repeat: no-repeat;
 }
 .wedding:hover {
   background-size: 110%;
@@ -126,4 +127,25 @@
 
 .weddingBtn:active {
   transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+.wedding {
+  height: 100vh;
+  background-image: url("./image/top.JPG");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: background-size 1s ease;
+  background-repeat: no-repeat;
+}
+.bride {
+  height: 100vh;
+  background-image: url("./image/brid2.JPG");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: background-size 1s ease;
+  background-repeat: no-repeat;
+}
 }
