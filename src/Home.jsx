@@ -10,7 +10,7 @@ const Home = () => {
                 <div className='weddingButton'>
                     <div className='col-11 m-auto d-flex gap-3 align-items-center justify-content-center flex-wrap'>
                         <button className='weddingBtn' onClick={() => openUrl('https://drive.google.com/drive/folders/1T3t0bZB1g-GMkXL11XKXVXJn6_1CUXZ3?usp=drive_link')} >Shaadi</button>
-                        <button className='weddingBtn' onClick={() => openUrl('https://drive.google.com/drive/folders/1jVYJmDNbqusFAn9Dm-7-4vvtDjA__EZO?usp=drive_link')} >Wedding Gust</button>
+                        <button className='weddingBtn' onClick={() => openUrl('https://drive.google.com/drive/folders/1jVYJmDNbqusFAn9Dm-7-4vvtDjA__EZO?usp=drive_link')} >Wedding Guest</button>
                         <button className='weddingBtn' onClick={() => openUrl('https://drive.google.com/drive/folders/1MabnN3DhqfgmTjWVTGl0fgAKQTsG3fuO?usp=drive_link')} >Shaadi Candid</button>
                     </div>
                 </div>
